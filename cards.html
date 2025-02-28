@@ -104,26 +104,155 @@
     cursor: pointer;
     transition: 0.5s;
 }
+.calculator-card{
+    background-color: #EEF7FF;
+    width: 240px;
+    border: 10px solid #4D869C;
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 0px 30px 0px 30px;
+}
+.calculator-card:hover{
+    background-color:    #4D869C;
+    color:white;
+    width: 240px;
+    border: 10px solid #EEF7FF;
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 0px 30px 0px 30px;
+    transition: 0.5s;
+}
+.calculator-btn{
+    background-color: #4D869C;
+    color:white;
+    height: 40px;
+    width: 160px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.calculator-btn:hover{
+    background-color:#EEF7FF ;
+    color:#4D869C;
+    height: 40px;
+    width: 160px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border: solid #4D869C;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.laptop-card{
+    background-color: #C4D9FF;
+    width: 240px;
+    border: none;
+    text-align: center;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius:6px;
+}
+.laptop-btn{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+.laptop-btn:hover{
+    background-color:white;
+    color:black;
+    height: 40px;
+    width: 160px;
+    border-radius: 30px;
+    border:none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.5;
+    cursor: pointer;
+}
+
+.coffee-card {
+    background-color: #FFF0DC; /* Warm coffee color */
+    width: 240px;
+    border: 10px solid #8B5A2B; /* Dark brown border */
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 15px; /* Soft rounded corners */
+}
+
+.coffee-card:hover {
+    background-color: #8B5A2B;
+    color: white;
+    border: 10px solid #D2B48C;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.coffee-btn {
+    background-color: #8B5A2B;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.coffee-btn:hover {
+    background-color: #D2B48C;
+    color: #8B5A2B;
+    border: solid #8B5A2B;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
     </style>
 </head>
 <body>
    
-        
+            <div class="himalaya-card">
+                <div><img src="./../icons-image/himalaya.jpg" alt="himalaya image"  height="150px" width="220px"  style="border-radius: 20px; "></div><br>
+                <div><b style="font-size:x-large; font-family: Georgia, 'Times New Roman', Times, serif;">Himalaya</b>
+                <p>Himalaya, where earth meets the sky, and every peak tells a story of timeless splendor!</p></div>
+                <div><button class="himalaya-btn">Explore</button></div>
+            </div><br><br>
             <div class="youtube-card">
                 <img src="./../icons-image/youtube-icon.png" alt="Placeholder"  height="80px" style="margin-top: 15px;">
                 <h3 style="font-size: larger;  font-family: Georgia, 'Times New Roman', Times, serif; font-size: x-large; "><b>YOUTUBE</b></h3>
                 <p>Unlock a universe of content and creativity dive into YouTube!</p>
                 <button class="youtube-btn">Explore Youtube</button>
             </div><br><br>
-            <div class="himalaya-card">
-                <div><img src="./../icons-image/himalaya.jpg" alt="himalaya image"  height="150px" width="220px"  style="border-radius: 20px; "></div><br>
-                <div><b style="font-size:x-large; font-family: Georgia, 'Times New Roman', Times, serif;">Himalaya</b>
-                <p>Himalaya, where earth meets the sky, and every peak tells a story of timeless splendor!</p></div>
-                <div><button class="himalaya-btn">Explore</button></div>
+            <div class="calculator-card">
+                <div><img src="./../icons-image/cal.jpg" alt="himalaya image"  height="150px"   style="border-radius: 20px; "></div><br>
+                <div><b style="font-size:x-large; font-family: Georgia, 'Times New Roman', Times, serif;">Calculator</b>
+                <p>Calculators turn complex problems into simple solutions.<br>Bringing precision to your calculations!</p></div>
+                <div><button class="calculator-btn">Let's Calculate</button></div>
+            </div><br><br>
+            <div class="laptop-card">
+                <div><img src="./../icons-image/laptop.jpg" alt="himalaya image"  height="160px"   style="border-radius: 20px; "></div><br>
+                <div><b style="font-size:x-large; font-family: Georgia, 'Times New Roman', Times, serif;">Laptop</b>
+                <p>Your go-to gadget for every digital need.Stay connected, stay productive.!</p></div>
+                <div><button class="laptop-btn">Add to cart</button></div>
+            </div><br><br>
+            <div class="coffee-card">
+                <div><img src="./../icons-image/coffee.jpg" alt="Coffee Image" height="150px" width="220px" style="border-radius: 20px;"></div><br>
+                <div><b style="font-size:x-large; font-family: Georgia, 'Times New Roman', Times, serif;">Coffee Time</b>
+                <p>Boost your energy with a cup of fresh, aromatic coffee. Stay refreshed!</p></div>
+                <div><button class="coffee-btn">Grab a Coffee</button></div>
             </div>
-       
-    
-
-
+            
 </body>
 </html>
