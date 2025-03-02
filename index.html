@@ -121,18 +121,43 @@
             cursor: pointer;
             box-shadow: 3px 5px 10px 3px rgb(146, 140, 140);
         }
+        .btn{
+            height: 40px;
+            width: 200px;
+            font-size: medium;
+            background-color: white;
+            border: solid #0066ff;
+            color: #0066ff;
+            border-radius: 6px;
+            box-shadow: 	4px 6px  5px #999999;
+        }
+        .btn:hover{
+            height: 40px;
+            width: 200px;
+            font-size: medium;
+            background-color: #0066ff;
+            border: none;
+            color: white;
+            border-radius: 6px;
+            box-shadow: 	4px 6px  5px #999999;
+            cursor: pointer;
+            transition: 0.5s;
+        }
     </style>
 </head>
 <body>
-   <h1>Complete Button</h1>
+    <a href="./cards.html" >
+        <button class="btn">Go to Cards</button>
+    </a>
+   <h3>Complete Button</h3>
     <button class="completed-button"> <i class="fa-regular fa-circle-check"></i>&nbsp;Complete</button>
-    <h1>Menu Button</h1>
+    <h3>Menu Button</h3>
     <button class="menu-button"><i class="fa-solid fa-bars"></i>&nbsp;<b>MENU</b></button>
-    <h1>Order Button</h1>
+    <h3>Order Button</h3>
     <button class="order-button">Order Now</button>
-    <h1>Send Button</h1>
+    <h3>Send Button</h3>
     <button class="send-button"><i class="fa-solid fa-paper-plane"></i>&nbsp;<b>Send</b></button>
-    <h1>Cancel Button</h1>
+    <h3>Cancel Button</h3>
     <button class="cancel-button"><i class="fa-solid fa-rectangle-xmark"></i>&nbsp;Cancel</button>
 </body>
 <script src="https://kit.fontawesome.com/130c6230c2.js" crossorigin="anonymous"></script>
